@@ -1,6 +1,5 @@
 <?php
-// hii this is ramya
-// Hii this is ramaya #2
+
 ob_start();
 session_start();
 include('db.php');
@@ -49,6 +48,7 @@ include('db.php');
 
 					//unset($_SESSION['cart'][3]);
 					//echo $key = array_search($size,array_column($_SESSION['cart'],1));
+					unset($cars[$search_id]);
 
 				}
 			}
