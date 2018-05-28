@@ -1,5 +1,5 @@
 <?php
-
+// Code for removing element from the array
 ob_start();
 session_start();
 include('db.php');
