@@ -1,5 +1,6 @@
 <?php
 // Code for removing element from the array
+// adding the second line to the file for git test
 ob_start();
 session_start();
 include('db.php');
